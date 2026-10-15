@@ -1,19 +1,32 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: page
-title: "About us"
+title: "Real people. Shared curiosity."
 ---
 
-## The Team
-* [Dr Yvonne Skipper](https://www.gla.ac.uk/schools/education/staff/yvonneskipper/)
-* [Dr Daniel Jolley](https://www.danieljolley.co.uk/) 
-* [Gemma Haywood](https://twitter.com/phdgemmahaywood?lang=en)
-* [Joe Reddington](https://joereddington.com/)
+<p class="eyebrow">About Project Real</p>
+<p class="intro">Project Real brings psychological research to life, creating practical resources to help young people navigate misinformation, online safety and the digital world.</p>
+
+We don’t think researchers should decide on their own what young people need. That’s why we co-create our resources with young people and the people who work with them. We listen, test, adapt and develop ideas together — combining research evidence with real experiences of life online.
+
+The result? Resources that are evidence-based, engaging and designed for the real world.
+
+## How we co-create
+
+Young people aren’t just the audience for Project Real. They’re part of the team. We involve young people in developing ideas, creating content, testing resources and telling us what works — and what doesn’t.
+
+We also work with organisations and practitioners who understand the challenges young people face, bringing different perspectives and expertise together.
+
+![Young people and project partners at a Project Real event]({{ '/assets/images/biggroup.jpg' | relative_url }})
+
+## Our team
+
+- [Dr Yvonne Skipper](https://www.gla.ac.uk/schools/education/staff/yvonneskipper/)
+- [Dr Daniel Jolley](https://www.danieljolley.co.uk/)
+- Gemma Haywood
+- [Joe Reddington](https://joereddington.com/)
 
 ## Our funder
-We are funded by [Not Equal](https://not-equal.tech/).  Not-Equal is a UKRI funded network, NetworkPlus, that aims to foster new collaborations in order to create the conditions for digital technology to support social justice, and develop a path for inclusive digital innovation and a fairer future for all in and through the digital economy.
 
-## Contact Us
-If you have any feedback on the programme, please get in touch and let us know.  We hope you and your students enjoy the programme.  We can be contacted at <a href="mailto:joe@equalitytime.co.uk">joe@equalitytime.co.uk</a>
+Project Real received funding from [Not-Equal](https://not-equal.tech/), a UKRI-funded NetworkPlus supporting collaborations for social justice and a fairer digital economy.
+
+[Explore the research →]({{ '/research.html' | relative_url }})

@@ -1,0 +1,54 @@
+- title: Spot it
+  number: '01'
+  subtitle: Can you tell what’s real online?
+  description: Interactive lessons, influencer videos and activities to help young people question what they see online.
+  type: Misinformation
+  colour: blue
+  url: /spot-it.html
+  action: Explore the lessons
+  audiences: [teachers]
+- title: Stay safe
+  number: '02'
+  subtitle: Think. Share. Stay safe.
+  description: Explore digital footprints, passwords, scams and online relationships through activities developed with Police Scotland.
+  type: Online safety
+  colour: orange
+  url: /stay-safe.html
+  action: Explore online safety
+  audiences: [teachers]
+- title: Lock it down
+  number: '03'
+  subtitle: How secure is your digital life?
+  description: Comic books developed with Education Scotland introduce practical ways to protect yourself and your accounts.
+  type: Cyber security
+  colour: green
+  url: /lock-it-down.html
+  action: Discover the comics
+  audiences: [teachers]
+- title: Debunk it
+  number: '04'
+  subtitle: Think you’ve spotted fake news? Prove it.
+  description: Become a misinformation detective. Spot the tricks, uncover the techniques and decide what’s real.
+  type: Interactive game
+  colour: yellow
+  url: /debunk-it.html
+  action: Meet Super Debunkers
+  audiences: [teachers, young-people, parents]
+- title: Check it
+  number: '05'
+  subtitle: Don’t believe everything you see about health.
+  description: A campaign developed with Public Health Scotland to help young people pause, question and check health information.
+  type: Health misinformation
+  colour: pink
+  url: /check-it.html
+  action: About the campaign
+  audiences: [teachers, young-people]
+- title: Talk about it
+  number: '06'
+  subtitle: Not sure what to do? Talk about it.
+  description: A video made with young people, and questions for families to start an honest conversation about life online.
+  type: For families
+  colour: orange
+  url: /wish.html
+  action: Watch and start talking
+  audiences: [young-people, parents]

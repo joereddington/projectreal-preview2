@@ -1,0 +1,19 @@
+<div class="resource-grid">
+{% for resource in site.data.resources %}
+  {% if include.audience == nil or resource.audiences contains include.audience %}
+  <a class="resource-card {{ resource.colour }}" href="{{ resource.url | relative_url }}">
+    <div class="card-top">
+<span class="resource-number">{{ resource.number }}</span>
+<span class="tag">{{ resource.type }}</span>
+</div>
+
+    <h3>{{ resource.title }}</h3>
+<p class="card-subtitle">{{ resource.subtitle }}</p>
+<p>{{ resource.description }}</p>
+<span class="card-link">{{ resource.action }} <span aria-hidden="true">↗</span>
+</span>
+  </a>
+  {% endif %}
+{% endfor %}
+
+</div>

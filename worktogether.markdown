@@ -1,23 +1,32 @@
 ---
 layout: page
-title: Let's work together
+title: "Let’s make something real."
 ---
 
-Project Real brings together research, teaching, youth voice, and practical resource design. We are interested in working with people who want to help young people think more clearly, feel safer online, and have better conversations about digital life.
+<p class="eyebrow">Work with us</p>
+<p class="intro">There are lots of ways to get involved with Project Real.</p>
 
-We are especially keen to hear from academics, teachers, schools, charities, youth organisations, funders, creative partners, and anyone working on related questions around misinformation, digital literacy, online safety, and participation.
+## Use what we’ve made
 
-If your work overlaps with ours, even loosely, we would be glad to hear from you.
+Our resources are free to use. Bring them into your classroom, youth group, organisation or conversations at home — and tell us what you think.
 
-## Current partners
+[Explore the resources →]({{ '/resources.html' | relative_url }})
 
-We are currently working with:
+## Help us test what works
+
+We’re always looking for schools, organisations and young people who would like to help us evaluate Project Real resources and understand their impact.
+
+## Got a challenge? Let’s create something together.
+
+If you have a specific need, audience or problem you’d like to tackle, we can work with you to develop a bespoke, research-informed resource.
+
+<a class="button" href="mailto:joe@equalitytime.co.uk">Get in touch ↗</a>
+
+## Our partners
 
 - Education Scotland
 - Police Scotland
 - Public Health Scotland
 - [The Melissa Institute](https://melissainstitute.org/)
 
-<div style="margin-top: 20px;">
-  <img src="{{site.baseurl}}/assets/images/biggroup.jpg" alt="Project Real working with partners including Police Scotland" style="width: 100%; height: auto;" />
-</div>
+![Project Real working with young people and partners]({{ '/assets/images/biggroup.jpg' | relative_url }})

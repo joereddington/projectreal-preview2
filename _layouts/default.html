@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/phone.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/design/site.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Project Real home">
+<img src="{{ '/assets/design/project-real.png' | relative_url }}" alt="Project Real" width="154" height="63">
+</a>
+      <nav aria-label="Main navigation">
+        <a href="{{ '/about.html' | relative_url }}" {% if page.url == '/about.html' %}aria-current="page"{% endif %}>About us</a>
+        <a href="{{ '/research.html' | relative_url }}" {% if page.url == '/research.html' %}aria-current="page"{% endif %}>Research</a>
+        <a href="{{ '/worktogether.html' | relative_url }}" {% if page.url == '/worktogether.html' %}aria-current="page"{% endif %}>Work with us</a>
+        <a class="button small" href="{{ '/resources.html' | relative_url }}">Explore resources <span aria-hidden="true">↗</span>
+</a>
+
+</nav>
+
+
+</div>
+
+
+</header>
+
+  <main id="main">{{ content }}
+</main>
+
+  <section class="contact-band">
+    <div class="container contact-inner">
+<div>
+<p class="eyebrow">Made together. Made for real life.</p>
+<h2>Let’s make something real.</h2>
+<p>Have an idea, a question or a classroom full of curious minds?</p>
+</div>
+<a class="button light" href="{{ '/worktogether.html' | relative_url }}">Work with us <span aria-hidden="true">↗</span>
+</a>
+</div>
+
+
+</section>
+
+  <footer class="container footer">
+<a class="footer-name" href="{{ '/' | relative_url }}">PROJECT REAL</a>
+<p>Research-informed. Co-created. Free to use.</p>
+<a href="mailto:{{ site.email }}">Get in touch ↗</a>
+<p class="licence">Resources shared under CC BY-NC-SA. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licence details</a>
+</p>
+</footer>
+
+</body>
+</html>
